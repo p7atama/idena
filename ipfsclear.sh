@@ -1,4 +1,3 @@
-idena-manager disable
 rm log*
 cd datadir-node1
 rm -r ipfs
