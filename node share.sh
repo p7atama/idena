@@ -34,7 +34,7 @@ npm i -g pm2
 
 cd idena-node-proxy
 
-bash -c 'echo "AVAILABLE_KEYS=[\"pemo\",\"laily\",\"ongky1\",\"ongky2\",\"ogut1\",\"tama1\",\"tama2\",\"1\",\"2\",\"3\",\"4\",\"5\",\"6\",\"7\",\"8\",\"9\",\"rafli\",\"dwi\",\"adday1\",\"adday2\",\"wahyu\",\"harsa\",\"raden\",\"anzas\",\"eka\"\"10\"\"jokiwahyu1\"\"jokiwahyu2\"\"kiki\"\"ogut2\"]
+bash -c 'echo "AVAILABLE_KEYS=[\"pemo\",\"laily\",\"ongky1\",\"ongky2\",\"ogut1\",\"tama1\",\"tama2\",\"1\",\"2\",\"3\",\"4\",\"5\",\"6\",\"7\",\"8\",\"9\",\"rafli\",\"dwi\",\"adday1\",\"adday2\",\"wahyu\",\"harsa\",\"raden\",\"anzas\",\"eka\",\"10\",\"jokiwahyu1\",\"jokiwahyu2\",\"kiki\",\"ogut2\",\"99\",\"98\",\"97\",\"96\",\"95\",\"94\",\"93\",\"92\",\"91\",\"90\",\"89\",\"88\",\"87\",\"86\",\"85\",\"84\",\"83\",\"82\"]
 IDENA_URL=\"http://localhost:9009\"
 IDENA_KEY=\"123\"
 PORT=80" > .env'
