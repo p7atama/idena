@@ -33,5 +33,7 @@ unzip idenachain.db.zip
 rm idenachain.db.zip
 cd ..
 cd ..
+sudo apt-get install -y sed
+sed -i 's/"rpc_host":"localhost"/"rpc_host":"0.0.0.0"/g' .idena.config
 idena-manager enable
 idena-manager status
