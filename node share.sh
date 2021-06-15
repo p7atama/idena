@@ -38,7 +38,7 @@ bash -c 'echo "AVAILABLE_KEYS=[\"api1\",\"api2\"]
 IDENA_URL=\"http://localhost:9009\"
 IDENA_KEY=\"123\"
 PORT=80
-GOD_API_KEY=\"test\"
+GOD_API_KEY=\"vip\"
 REMOTE_KEYS_ENABLED=0" > .env'
 
 npm install
