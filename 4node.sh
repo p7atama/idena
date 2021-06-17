@@ -34,6 +34,17 @@ unzip idenachain.db.zip
 rm idenachain.db.zip
 cd ..
 cd ..
+idena-manager add
+idena-manager disable
+cd datadir-node4
+rm -r idenachain.db
+mkdir idenachain.db
+cd idenachain.db
+wget "https://sync.idena-ar.com/idenachain.db.zip"
+unzip idenachain.db.zip
+rm idenachain.db.zip
+cd ..
+cd ..
 sudo apt-get install -y sed
 sed -i 's/"rpc_host":"localhost"/"rpc_host":"0.0.0.0"/g' .idena.config
 idena-manager enable
