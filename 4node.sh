@@ -8,7 +8,7 @@ rm -r ipfs
 mkdir idenachain.db
 cd idenachain.db
 sudo apt-get install unzip
-wget "https://sync.idena-ar.com/idenachain.db.zip"
+wget "https://sync.idena.site/idenachain.db.zip"
 unzip idenachain.db.zip
 rm idenachain.db.zip
 cd ..
@@ -20,7 +20,7 @@ rm -r idenachain.db
 rm -r ipfs
 mkdir idenachain.db
 cd idenachain.db
-wget "https://sync.idena-ar.com/idenachain.db.zip"
+wget "https://sync.idena.site/idenachain.db.zip"
 unzip idenachain.db.zip
 rm idenachain.db.zip
 cd ..
@@ -32,7 +32,7 @@ rm -r idenachain.db
 rm -r ipfs
 mkdir idenachain.db
 cd idenachain.db
-wget "https://sync.idena-ar.com/idenachain.db.zip"
+wget "https://sync.idena.site/idenachain.db.zip"
 unzip idenachain.db.zip
 rm idenachain.db.zip
 cd ..
@@ -44,7 +44,7 @@ rm -r idenachain.db
 rm -r ipfs
 mkdir idenachain.db
 cd idenachain.db
-wget "https://sync.idena-ar.com/idenachain.db.zip"
+wget "https://sync.idena.site/idenachain.db.zip"
 unzip idenachain.db.zip
 rm idenachain.db.zip
 cd ..
