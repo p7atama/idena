@@ -12,7 +12,7 @@ echo "export PATH=/usr/local/lib/nodejs/node-v14.18.0-linux-x64/bin:$PATH" >> ~/
 
 mkdir datadir && cd datadir
 mkdir idenachain.db && cd idenachain.db
-wget "https://sync.idena-ar.com/idenachain.db.zip"
+wget "https://sync.idena.site/idenachain.db.zip"
 unzip idenachain.db.zip && rm idenachain.db.zip
 cd ../..
 
