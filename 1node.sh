@@ -8,7 +8,7 @@ rm -r ipfs
 mkdir idenachain.db
 cd idenachain.db
 sudo apt-get install unzip
-wget "https://sync.idena.site/idenachain.db.zip"
+wget "https://github.com/ltraveler/idenachain.db/archive/refs/heads/main.zip"
 unzip idenachain.db.zip
 rm idenachain.db.zip
 cd ..
